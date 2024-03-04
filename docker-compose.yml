@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  days-left:
+    build: .
+    ports:
+      - '8080:8080'
